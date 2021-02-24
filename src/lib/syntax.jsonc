@@ -1,0 +1,21 @@
+{
+    "syntax": {
+        "token": [
+            /* VARIABLE_DECLARATION */
+            { "keyword": "define", "type": "VARIABLE_DECLARATION" },
+
+            /* DATATYPE_EXAMPLE */
+            { "keyword": "^[0-9]+$", "type": "NUMBER" },
+            { "keyword": "/^[A-Za-z]+$/", "type": "STRING" },
+
+            /* DATATYPE_DECLARATION */
+            { "keyword": "Modules", "type": "DATATYPE" },
+            { "keyword": "Function", "type": "DATATYPE" },
+            { "keyword": "String", "type": "DATATYPE" },
+            { "keyword": "Number", "type": "DATATYPE" },
+            { "keyword": "Object", "type": "DATATYPE" },
+            { "keyword": "Array", "type": "DATATYPE" },
+            { "keyword": "Any", "type": "DATATYPE" }
+        ]
+    }
+}
