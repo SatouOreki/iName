@@ -1,0 +1,1 @@
+globalThis.__dirname = "C:/Users/Dell/Documents/Production/iName/";
